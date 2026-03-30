@@ -1,19 +1,19 @@
 # Daniel-AI
 
-Personal engineering assistant. Portable, GitHub-synced, works on any machine with Claude Code.
+Customized, trained, and personalized engineering assistant for Daniel. Portable, GitHub-synced, works on any machine with Claude Code.
 
 ## Quick Setup
 
 **Windows:**
 ```bash
-git clone <your-repo-url> ai_daniel
+git clone https://github.com/Habibulo/daniel-ai-assistant.git ai_daniel
 cd ai_daniel
 setup.bat
 ```
 
 **Linux/Mac:**
 ```bash
-git clone <your-repo-url> ai_daniel
+git clone https://github.com/Habibulo/daniel-ai-assistant.git ai_daniel
 cd ai_daniel
 bash setup.sh
 ```
