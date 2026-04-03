@@ -43,20 +43,20 @@ Daniel likes organized, step-by-step perfection before implementation. Follow th
 4. **Execute** — Only after approval, write the code. One step at a time.
 5. **Review** — After task completion, show a quick summary (see below).
 
-## After Every Task — Skill Scan
+## After Every Task — Expertise Scan
 
-After completing any task, do a **3-line skill check**:
+After completing any task, do a **3-line expertise check**:
 
 ```
-Learned: [what was done — e.g., "S3 presigned URL generation with expiry"]
-Skill:   [category — e.g., "cloud/aws-s3"]
-Resume:  [impact phrase — e.g., "Implemented secure S3 file uploads with presigned URLs and TTL expiry"]
+Learned:   [what was done — e.g., "S3 presigned URL generation with expiry"]
+Expertise: [category — e.g., "cloud/aws-s3"]
+Resume:    [impact phrase — e.g., "Implemented secure S3 file uploads with presigned URLs and TTL expiry"]
 ```
 
 Then:
-- If the skill is new, propose adding it to `skills/` and `resume-tracker.md`
+- If the expertise is new, propose adding it to `expertise/` and `resume-tracker.md`
 - If Daniel approves, save it immediately
-- If the skill already exists, skip silently
+- If the expertise already exists, skip silently
 
 ## Short Commands
 
@@ -64,50 +64,50 @@ Daniel types fast. Recognize these shortcuts:
 
 | Command | Action |
 |---------|--------|
-| `scan` or `scan skills` | Review current session and propose new skills |
-| `skills` | Show current skill index |
+| `scan` or `scan expertise` | Review current session and propose new expertise |
+| `expertise` | Show current expertise index |
 | `resume` | Show resume-tracker.md |
 | `plan` | Enter plan mode — organize before executing |
 | `do it` or `go` | Approval to execute the current plan |
-| `save` | Save all proposed skills and resume entries |
+| `save` | Save all proposed expertise and resume entries |
 | `push` | Git add, commit, push the ai_daniel repo |
 | `status` | Show what's changed, what's pending |
-| `suggest` | Show pending skill suggestions |
+| `suggest` | Show pending expertise suggestions |
 | `learn` | Same as `scan` — what did we learn this session |
 
-## Skills System
+## Expertise System
 
-Skills are loaded from `skills/` subdirectories. Each `.md` file is a verified, fact-based skill extracted from real project work.
+Daniel's verified expertise is stored in `expertise/` subdirectories. Each `.md` file is a fact-based record extracted from real project work. These are NOT plugin skills — they represent what Daniel knows, not what AI can execute.
 
-### Skill Categories
+### Expertise Categories
 
 | Directory | Domain |
 |-----------|--------|
-| `skills/backend/` | Server-side: Node.js, Koa.js, API design |
-| `skills/database/` | Data layer: MySQL, TypeORM, Redis |
-| `skills/devops/` | Deployment: PM2, Docker, CI/CD |
-| `skills/architecture/` | System design: patterns, auth, middleware |
-| `skills/security/` | Security: JWT, hashing, CORS, validation |
-| `skills/workflow/` | Git, testing, code review, documentation |
-| `skills/cloud/` | AWS, S3, cloud services |
-| `skills/frontend/` | UI work if applicable |
+| `expertise/backend/` | Server-side: Node.js, Koa.js, API design |
+| `expertise/database/` | Data layer: MySQL, TypeORM, Redis |
+| `expertise/devops/` | Deployment: PM2, Docker, CI/CD |
+| `expertise/architecture/` | System design: patterns, auth, middleware |
+| `expertise/security/` | Security: JWT, hashing, CORS, validation |
+| `expertise/workflow/` | Git, testing, code review, documentation |
+| `expertise/cloud/` | AWS, S3, cloud services |
+| `expertise/frontend/` | UI work if applicable |
 
-### Adding Skills
+### Adding Expertise
 
 ```markdown
 ---
-skill: skill-name
+expertise: expertise-name
 category: backend|database|devops|architecture|security|workflow|cloud|frontend
 source: project-name
 verified: true
 date: YYYY-MM-DD
 ---
 
-Concise, factual skill content. No opinions. No maybes.
+Concise, factual content. No opinions. No maybes.
 ```
 
-1. Create `.md` in the right `skills/` subdirectory
-2. Update `skills/INDEX.md`
+1. Create `.md` in the right `expertise/` subdirectory
+2. Update `expertise/INDEX.md`
 3. Add resume line to `resume-tracker.md`
 
 ## Resume Tracker
@@ -122,7 +122,7 @@ These are written to impress engineers and hiring managers. Action verbs. Metric
 
 ## Suggestions
 
-`suggestions/suggestion_skills.md` holds proposed skills awaiting Daniel's review. Always ask before promoting to verified.
+`suggestions/pending.md` holds proposed expertise awaiting Daniel's review. Always ask before promoting to verified.
 
 ## Personality
 

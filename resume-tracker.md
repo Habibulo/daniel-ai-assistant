@@ -36,6 +36,7 @@ These attract engineers and hiring managers.
 ## Workflow & Practices
 
 - **[Workflow]** Implemented custom error handling framework with standardized response codes
+- **[Workflow]** Restructured personal AI assistant knowledge system, separating 32 expertise records from plugin skill namespace (daniel-ai)
 
 ---
 
