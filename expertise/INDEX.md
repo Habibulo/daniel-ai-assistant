@@ -1,6 +1,6 @@
 # Expertise Index
 
-Last updated: 2026-04-03 | Total: 32 entries
+Last updated: 2026-04-03 | Total: 33 entries
 
 ## Backend (5)
 
@@ -21,7 +21,7 @@ Last updated: 2026-04-03 | Total: 32 entries
 | [multi-database.md](database/multi-database.md) | Multi-database separation by domain | SPOMARU |
 | [database-migrations.md](database/database-migrations.md) | Schema versioning and safe rollback | general |
 
-## Architecture (5)
+## Architecture (6)
 
 | File | Expertise | Source |
 |------|-------|--------|
@@ -30,6 +30,7 @@ Last updated: 2026-04-03 | Total: 32 entries
 | [jwt-dual-auth.md](architecture/jwt-dual-auth.md) | Dual JWT system (user + admin) | SPOMARU |
 | [system-design.md](architecture/system-design.md) | Scalable architecture patterns, microservices vs monolith | general |
 | [event-driven.md](architecture/event-driven.md) | Event emitters, message queues, pub/sub | general |
+| [multi-repo-ai-system.md](architecture/multi-repo-ai-system.md) | Cross-platform AI assistant multi-repo architecture | daniel-ai |
 
 ## Security (5)
 

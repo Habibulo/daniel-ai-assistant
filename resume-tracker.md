@@ -22,6 +22,7 @@ These attract engineers and hiring managers.
 - **[Architecture]** Designed dual JWT authentication system (user + admin) with Redis-backed token revocation
 - **[Architecture]** Built QR-based remote authentication flow using EventEmitter for real-time session handoff
 - **[Architecture]** Engineered Koa.js middleware pipeline for auth, logging, error handling, and request validation
+- **[Architecture]** Architected 3-layer AI assistant system separating personal identity, universal skills, and tool-specific plugins across multiple platforms (daniel-ai)
 
 ## Security
 
