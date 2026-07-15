@@ -39,6 +39,12 @@ These attract engineers and hiring managers.
 - **[Workflow]** Implemented custom error handling framework with standardized response codes
 - **[Workflow]** Restructured personal AI assistant knowledge system, separating 32 expertise records from plugin skill namespace (daniel-ai)
 
+## AI & Bots
+
+- **[Backend / AI]** Built and deployed an AI-powered IELTS Speaking Telegram bot from zero to live in a single session at $0 infrastructure cost — Telegraf + Groq Whisper-large-v3 + Llama-3.3-70B rubric scoring + SQLite persistence + Fly.io webhook deployment with volume-backed storage (ielts-bot)
+- **[Architecture]** Designed dual-mode bot architecture (polling for local dev, webhook for production) with env-driven mode selection, enabling Fly.io free-tier auto-stop machines while keeping zero-config local development (ielts-bot)
+- **[AI / DevOps]** Pivoted scoring backend from Gemini to Groq Llama 3.3 70B mid-build after regional free-tier blockage, completing the swap in a single file change without touching the IELTS band-descriptor prompt or output JSON contract — proved value of vendor-agnostic JSON-schema-driven AI calls (ielts-bot)
+
 ---
 
 ## How This Works

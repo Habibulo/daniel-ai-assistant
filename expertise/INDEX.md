@@ -1,8 +1,8 @@
 # Expertise Index
 
-Last updated: 2026-04-03 | Total: 33 entries
+Last updated: 2026-07-15 | Total: 36 entries
 
-## Backend (5)
+## Backend (6)
 
 | File | Expertise | Source |
 |------|-------|--------|
@@ -11,6 +11,7 @@ Last updated: 2026-04-03 | Total: 33 entries
 | [service-layer-pattern.md](backend/service-layer-pattern.md) | Controller → Service → Repository layered architecture | SPOMARU |
 | [file-upload.md](backend/file-upload.md) | Multipart uploads, streaming, presigned URLs | general |
 | [api-versioning.md](backend/api-versioning.md) | API versioning strategies and migration | general |
+| [telegram-bot-telegraf.md](backend/telegram-bot-telegraf.md) | Telegraf 4.x bot dev: commands, voice handling, polling vs webhook modes | ielts-bot |
 
 ## Database (4)
 
@@ -21,7 +22,7 @@ Last updated: 2026-04-03 | Total: 33 entries
 | [multi-database.md](database/multi-database.md) | Multi-database separation by domain | SPOMARU |
 | [database-migrations.md](database/database-migrations.md) | Schema versioning and safe rollback | general |
 
-## Architecture (6)
+## Architecture (7)
 
 | File | Expertise | Source |
 |------|-------|--------|
@@ -31,6 +32,7 @@ Last updated: 2026-04-03 | Total: 33 entries
 | [system-design.md](architecture/system-design.md) | Scalable architecture patterns, microservices vs monolith | general |
 | [event-driven.md](architecture/event-driven.md) | Event emitters, message queues, pub/sub | general |
 | [multi-repo-ai-system.md](architecture/multi-repo-ai-system.md) | Cross-platform AI assistant multi-repo architecture | daniel-ai |
+| [voice-to-llm-pipeline.md](architecture/voice-to-llm-pipeline.md) | Voice → STT → LLM rubric grading → structured feedback pipeline | ielts-bot |
 
 ## Security (5)
 
@@ -63,7 +65,7 @@ Last updated: 2026-04-03 | Total: 33 entries
 | [testing-strategy.md](workflow/testing-strategy.md) | Unit, integration, e2e test patterns | general |
 | [project-organization.md](workflow/project-organization.md) | AI assistant knowledge system structuring and namespace separation | daniel-ai |
 
-## Cloud (5)
+## Cloud (6)
 
 | File | Expertise | Source |
 |------|-------|--------|
@@ -72,6 +74,7 @@ Last updated: 2026-04-03 | Total: 33 entries
 | [aws-iam.md](cloud/aws-iam.md) | Roles, policies, least-privilege access | general |
 | [aws-networking.md](cloud/aws-networking.md) | VPC, subnets, route tables, NAT gateway | general |
 | [aws-sa-patterns.md](cloud/aws-sa-patterns.md) | Solutions Architect design patterns and best practices | AWS SA certification |
+| [fly-io-webhook-deploy.md](cloud/fly-io-webhook-deploy.md) | Fly.io webhook deploys with auto-stop machines and SQLite volume persistence | ielts-bot |
 
 ## Frontend (2)
 
